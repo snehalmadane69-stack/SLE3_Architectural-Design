@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="u8SbF281_oNccCQC65tr">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="890" width="600" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-7" edge="1" parent="1" source="-e2CzT4ED24JrvlPRoUL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-e2CzT4ED24JrvlPRoUL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;1. Configured Start / Goal&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;Start Node: &lt;code&gt;S&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Goal Node: &lt;code&gt;Goal&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="340" x="244" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-9" edge="1" parent="1" source="-e2CzT4ED24JrvlPRoUL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-e2CzT4ED24JrvlPRoUL-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;2. Graph Representation&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;graph&lt;/code&gt; dictionary&lt;/p&gt;&lt;p&gt;&lt;code&gt;nx.DiGraph()&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Graph image: &lt;code&gt;graph.png&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="244" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;3. Search Engine&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;bfs()&lt;/code&gt; — Queue using &lt;code&gt;deque&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;code&gt;dfs()&lt;/code&gt; — Stack using list&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="244" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-12" edge="1" parent="1" source="-e2CzT4ED24JrvlPRoUL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-e2CzT4ED24JrvlPRoUL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;4. Search Tracking&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;code&gt;visited&lt;/code&gt; set&lt;/p&gt;&lt;p&gt;&lt;code&gt;parent&lt;/code&gt; dictionary&lt;/p&gt;&lt;p&gt;&lt;code&gt;nodes_expanded&lt;/code&gt; counter&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="250" y="630" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;br&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;5. Results and Profiling&lt;/span&gt;&lt;/p&gt;&lt;p&gt;BFS / DFS paths&lt;/p&gt;&lt;p&gt;Nodes expanded&lt;/p&gt;&lt;p&gt;Execution time using &lt;code&gt;timeit.repeat()&lt;/code&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="&#xa;&lt;p&gt;&lt;span&gt;5. Results and Profiling&lt;/span&gt;&lt;/p&gt;&lt;p&gt;BFS / DFS paths&lt;/p&gt;&lt;p&gt;Nodes expanded&lt;/p&gt;&lt;p&gt;Execution time using &lt;code&gt;timeit.repeat()&lt;/code&gt;&lt;/p&gt;&#xa;&#xa;" id="-e2CzT4ED24JrvlPRoUL-6">
+          <mxCell parent="1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="100" width="340" x="250" y="780" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-10" edge="1" parent="1" source="-e2CzT4ED24JrvlPRoUL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.482;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="-e2CzT4ED24JrvlPRoUL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-e2CzT4ED24JrvlPRoUL-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Graph Search System&lt;div&gt;BFS / DFS&amp;nbsp; Profiling Project&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="340" x="244" y="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

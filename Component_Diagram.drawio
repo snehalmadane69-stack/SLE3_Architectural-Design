@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="yMMA-lyMKXu5uE0I7JX5">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 1px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(%23000000%2C%20var(--ge-light-color%2C%20%23ffffff))%3B%26quot%3B%26gt%3B1.%20Configured%20Start%20%2F%20Goal%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bp%26gt%3BStart%20Node%3A%20%26lt%3Bcode%26gt%3BS%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3BGoal%20Node%3A%20%26lt%3Bcode%26gt%3BGoal%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2290%22%20width%3D%22340%22%20x%3D%22244%22%20y%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 1px; text-align: start; white-space: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%26lt%3Bp%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bbackground-color%3A%20transparent%3B%20color%3A%20light-dark(%23000000%2C%20var(--ge-light-color%2C%20%23ffffff))%3B%26quot%3B%26gt%3B1.%20Configured%20Start%20%2F%20Goal%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bp%26gt%3BStart%20Node%3A%20%26lt%3Bcode%26gt%3BS%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3Bp%26gt%3BGoal%20Node%3A%20%26lt%3Bcode%26gt%3BGoal%26lt%3B%2Fcode%26gt%3B%26lt%3B%2Fp%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2290%22%20width%3D%22340%22%20x%3D%22244%22%20y%3D%22160%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="930" width="600" x="430" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-7" edge="1" parent="1" source="e4A-fuRcqgeX6WPE7ouV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="e4A-fuRcqgeX6WPE7ouV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;1. Frontier&lt;/p&gt;&lt;p&gt;BFS: Queue (&lt;code&gt;deque&lt;/code&gt;)&lt;/p&gt;&lt;p&gt;DFS: Stack (&lt;code&gt;list&lt;/code&gt;)&lt;/p&gt;&lt;p&gt;Stores nodes waiting to be explored&lt;/p&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="570" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-8" edge="1" parent="1" source="e4A-fuRcqgeX6WPE7ouV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e4A-fuRcqgeX6WPE7ouV-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;2. Explored Set&lt;/p&gt;&lt;p&gt;&lt;code&gt;visited&lt;/code&gt; set&lt;/p&gt;&lt;p&gt;Tracks already visited nodes&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="570" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-9" edge="1" parent="1" source="e4A-fuRcqgeX6WPE7ouV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e4A-fuRcqgeX6WPE7ouV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;3. Goal Test&lt;/p&gt;&lt;p&gt;&lt;code&gt;node == goal&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Checks whether the current node is the goal&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="340" x="570" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-19" edge="1" parent="1" source="e4A-fuRcqgeX6WPE7ouV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="e4A-fuRcqgeX6WPE7ouV-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;span&gt;&lt;span&gt;4. &lt;/span&gt;&lt;span&gt;Path &lt;/span&gt;&lt;span&gt;Reconstructor&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Uses &lt;/span&gt;&lt;code&gt;&lt;span&gt;parent&lt;/span&gt;&lt;/code&gt; &lt;span&gt;dictionary&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;Builds &lt;/span&gt;&lt;span&gt;the &lt;/span&gt;&lt;span&gt;final &lt;/span&gt;&lt;span&gt;path &lt;/span&gt;&lt;span&gt;from &lt;/span&gt;&lt;span&gt;Goal &lt;/span&gt;&lt;span&gt;to &lt;/span&gt;&lt;span&gt;Start&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" x="570" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;5. Search Result&lt;/p&gt;&lt;p&gt;Final path and nodes expanded&lt;/p&gt;&lt;/div&gt;&lt;h3&gt;&lt;/h3&gt;" vertex="1">
+          <mxGeometry height="90" width="340" x="570" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="e4A-fuRcqgeX6WPE7ouV-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;p&gt;&lt;code&gt;Search Engine – Internal Components&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="570" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
